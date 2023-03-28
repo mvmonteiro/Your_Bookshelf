@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/card.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --cor-menu: #FFFFFF;
+    --cor-titulo-menu: #EB9B00;
+    --cor-degrade-menu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+}
