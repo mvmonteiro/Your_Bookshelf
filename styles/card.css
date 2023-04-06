@@ -72,3 +72,26 @@
 .principal__card__descricao_2 {
     gap: 3rem;
 }
+
+@media screen and (min-width:1024px) {
+    .principal__card {
+        width: 40%;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .principal__card {
+        width: 60%;
+        margin: 6rem 0 4rem 5rem;
+    }
+
+    .principal__card__descricao__titulo {
+        font-size: 28px;
+    }
+
+    .principal__card__descricao__texto {
+        font-size: 16px;
+    }
+
+}

@@ -11,7 +11,9 @@
     --cor-menu: #FFFFFF;
     --cor-titulo-menu: #EB9B00;
     --cor-degrade-menu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --font-principal: 'Poppins', sans-serif;
+    --font-principal: "Poppins", sans-serif;
+    --font-secundaria: "Josefin Sans";
+    --cor-preta: #000000;
 }
 
 body {
