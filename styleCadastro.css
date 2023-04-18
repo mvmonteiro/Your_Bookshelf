@@ -1,12 +1,9 @@
-@import url("styles/home/header.css");
-@import url("styles/home/banner.css");
-@import url("styles/home/carrossel.css");
-@import url("styles/home/card.css");
-@import url("styles/home/topicos.css");
-@import url("styles/home/contato.css");
-@import url("styles/home/footer.css");
-
-
+@import url("styles/cadrastro/header.css");
+@import url("styles/cadrastro/banner.css");
+@import url("styles/cadrastro/cadastro.css");
+@import url("styles/cadrastro/reset.css");
+@import url("styles/cadrastro/rodape.css");
+@import url("styles/cadrastro/formulario.css");
 
 
 :root {

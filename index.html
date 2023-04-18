@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Bookshelf</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <title>Your Bookshelf</title>
 </head>
 <body>
 
@@ -38,8 +38,8 @@
                 <a href="#" class="lista__menu__link">DESIGN & UX</a>
             </li>
         </ul>
-        <img src="assets/menu/Logo.svg" alt="Icone da logo do site" class="cabecalho__logo">
-        <h1 class="cabecalho__esquerda__titulo"><b class="cabecalho__esquerda__titulo--negrito">Your</b>Bookshelf</h1>
+            <img src="assets/menu/Logo.svg" alt="Icone da logo do site" class="cabecalho__logo">
+            <h1 class="cabecalho__esquerda__titulo"><b class="cabecalho__esquerda__titulo--negrito">Your</b>Bookshelf</h1>
     </div>
     <ul class="cabecalho__opcoes">
         <input type="checkbox" id="opcoes__menu" class="opcoes__botao">
@@ -67,15 +67,32 @@
         <li class="cabecalho__opcoes__item"><a href="#" class="cabecalho__opcoes__item__link">MINHA ESTANTE</a></li>
     </ul>
     <div class="cabecalho__container cabecalho__direita">
-        <a href="#" class="cabecalho__favoritos"><img src="assets/menu/Favoritos.svg" alt="Icone de favoritos"></a>
-        <a href="#" class="cabecalho__compras cabecalho__imagens">
-            <img src="assets/menu/Compras.svg" alt="Icone de compras">
-            <p class="cabecalho__imagens__texto">Minha sacola</p>
-        </a>
-        <a href="#" class="cabecalho__usuario cabecalho__imagens">
-            <img src="assets/menu/Usuario.svg" alt="Icone de usuario">
-            <p class="cabecalho__imagens__texto">Meu perfil</p>
-        </a>
+        <ul class="cabecalho__container_usuario">
+            <li class="cabecalho__favoritos cabecalho__imagens">
+                <img src="assets/menu/Favoritos.svg" alt="Icone de favoritos">
+                <a href="#" class="cabecalho__imagens__texto">Favoritos</a>
+            </li>
+            <li class="cabecalho__compras cabecalho__imagens">
+                <img src="assets/menu/Compras.svg" alt="Icone de compras">
+                <a href="#" class="cabecalho__imagens__texto">Minha sacola</a>
+            </li>
+
+            <input type="checkbox" id="opcao-perfil" class="cabecalho__container_input">
+            <label for="opcao-perfil">
+                <li class="cabecalho__usuario cabecalho__imagens">
+                    <img src="assets/menu/Usuario.svg" alt="Icone de usuario">
+                    <p class="cabecalho__imagens__texto">Meu perfil</p>
+                </li>
+            </label>
+            <ul class="lista__perfil">
+                <li class="lista__perfil__item">
+                    <a href="#" class="lista__perfil__item__link">Login</a>
+                </li>
+                <li class="lista__perfil__item">
+                    <a href="/pages/cadastro/cadastro.html" class="lista__perfil__item__link">Cadastre-se</a>
+                </li>
+            </ul>
+        </ul>
     </div>
 </header>
 
