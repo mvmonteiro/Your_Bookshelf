@@ -1,0 +1,97 @@
+.principal__card {
+    font-family: var(--font-principal);
+    background: var(--cor-menu);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 1.8rem;
+}
+
+.principal__card__descricao {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.principal__card__descricao__titulo {
+    color: var(--cor-titulo-menu);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.principal__card__descricao__livro {
+    font-weight: 700;
+    font-size: 18px;
+    color: #002F52;
+    margin: 1rem 0;
+}
+
+.principal__card__descricao__texto {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.principal__card__descricao__imagem {
+    max-width: 140px;
+}
+
+.principal__card__icone {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.principal__card__icone__botoes {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.principal__card__icone__botoes__favoritos img {
+    width: 80%;
+}
+
+.principal__card__icone__botoes__compras img{
+    width: 80%;
+}
+
+.principal__card__icone__botao {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-menu);
+    background-color: var(--cor-titulo-menu);
+    padding: 1rem 1.5rem;
+}
+
+.principal__card__descricao_estrelas {
+    margin-bottom: 1rem;
+}
+
+.principal__card__descricao_2 {
+    gap: 3rem;
+}
+
+@media screen and (min-width:1024px) {
+    .principal__card {
+        width: 40%;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .principal__card {
+        width: 60%;
+        margin: 6rem 0 4rem 5rem;
+    }
+
+    .principal__card__descricao__titulo {
+        font-size: 28px;
+    }
+
+    .principal__card__descricao__texto {
+        font-size: 16px;
+    }
+
+}
