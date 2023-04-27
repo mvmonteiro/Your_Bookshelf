@@ -7,6 +7,14 @@
     display: inline-block;
 }
 
+.cabecalho__container__homeLink {
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    text-decoration: none;
+    color: var(--cor-preta);
+}
+
 .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
     background-image: url("../img/Menu Aberto.svg");
 }
@@ -159,7 +167,7 @@
     }
 
     .opções {
-        margin-right: auto;
+        margin: 0 auto;
     }
 
     .container__texto {
